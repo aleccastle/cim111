@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body{font-family: sans-serif;
+      background-color: pink;}
+
+header, h4{background-color: salmon;
+       width:190px;
+       margin: 20px;
+     padding: 5px 50px 5px 5px}
+
+main{ width:960px;
+      padding-top: -50px;
+      padding-bottom: 200px;
+}
+
+footer{background-color:aqua;
+        width: 800px;
+        margin: 0 auto;}
+
+h1{color:white;
+  font-family: 'Montserrat', sans-serif;}
+
+h3 em{text-decoration: underline;
+      color: green;}
+
+h3{text-align:center;
+  background-color: salmon;
+  width:100px;
+  width:190px;
+  margin: 20px;
+padding: 5px 50px 5px 5px}
+
+h4{text-align:center}
+
+nav{width:400px;
+    margin:0 auto;}
+
+nav ul{margin-left: -10px}
+nav ul li{list-style: none;
+          display: inline-flex;
+          margin-right:20px;
+          }
+nav ul li a:hover{background-color:pink;
+                  }
+
+
+a{text-decoration:none;
+  color:yellow;
+  text-align: center;
+  padding-left:10px}
+a:hover{color:black}
+
+
+p{line-height:30px;
+  font-family: 'Montserrat'
+  text-align:center;
+  padding-left: 50px;
+  padding-right:100px;}
+
+table{padding-left:20px}
+tr{padding: 10px 5px 5px 5px}
+th{padding: 10px 5px 5px 5px}
+
+.center {
+  text-align: center;
+}
+
+#centerText{text-align:center;
+            color:blue;}
+
+.greyOut{color:grey;}
+
+section{margin-bottom:100px;}
+
+.work{margin-bottom:30px;
+      width:300px;
+      height:450px;
+      display:inline-block;
+      padding: 10px;
+      background-color:pink;}
+
+#moveUp{margin-top:-25px;}
+
+.titles{font-weight:bold;
+        color:purple}
