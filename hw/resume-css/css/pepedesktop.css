@@ -23,14 +23,20 @@ h1{color:white;
 h3 em{text-decoration: underline;
       color: green;}
 
-h3{text-align:center;
+h3{
+
+  }
+
+h4{text-align:center}
+
+.headings{
   background-color: salmon;
   width:100px;
   width:190px;
   margin: 20px;
-padding: 5px 50px 5px 5px}
-
-h4{text-align:center}
+padding: 5px 50px 5px 5px;
+text-align:center;
+}
 
 nav{width:400px;
     margin:0 auto;}
@@ -50,16 +56,21 @@ a{text-decoration:none;
   padding-left:10px}
 a:hover{color:black}
 
+.city{background-color: white
+      padding:10px}
 
 p{line-height:30px;
   font-family: 'Montserrat'
   text-align:center;
   padding-left: 50px;
-  padding-right:100px;}
+  padding-right:100px;
+  font-style: italic;}
 
 table{padding-left:20px}
-tr{padding: 10px 5px 5px 5px}
-th{padding: 10px 5px 5px 5px}
+tr
+th
+
+.banana{padding: 10px 5px 5px 5px}
 
 .center {
   text-align: center;
@@ -81,5 +92,5 @@ section{margin-bottom:100px;}
 
 #moveUp{margin-top:-25px;}
 
-.titles{font-weight:bold;
-        color:purple}
+.titles{font-weight:strong;
+        color:white}
