@@ -56,19 +56,17 @@ a{text-decoration:none;
   padding-left:10px}
 a:hover{color:black}
 
-.city{background-color: white
+.city{background-color: white;
       padding:10px}
 
 p{line-height:30px;
-  font-family: 'Montserrat'
+  font-family: 'Montserrat';
   text-align:center;
   padding-left: 50px;
   padding-right:100px;
   font-style: italic;}
 
 table{padding-left:20px}
-tr
-th
 
 .banana{padding: 10px 5px 5px 5px}
 
