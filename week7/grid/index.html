@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Percentage Layout</title>
+
+    <link rel="stylesheet" href="css/desktop.css" media="only screen and (min-width: 760px)">
+    <link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 760px)">
+
+    <style>
+      .container{
+        width: 960px;
+        margin: 0 auto;
+        display: grid;
+
+        grid-template-areas: "header" "main" "footer";
+
+        grid-template-rows: 1fr auto 1fr;
+        grid-template-columns: 960px;
+      }
+      header{
+        grid-area:header;
+        background-color: purple;}
+      footer
+      main{
+        grid-area: main;
+        background-color: green;
+        display: grid;
+        grid-template-areas: "col1 col2 col3";
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+
+        header{
+          width: 960px;
+          height: 100px;
+          background-color: coral;
+          margin: 0 auto}
+        main {
+          width:960px;
+          height: 2000px;
+          background-color:aliceblue;}
+
+    #grid1{
+      height: auto;
+      display: grid;
+      grid-template-rows: 200px 200px 400px 400px;
+      grid-template-columns: 480px 480px}
+
+    </style>
+</head>
+
+<body>
+  <header>  </header>
+
+  <main>
+    <div id="grid1">
+      <div>row 1 col 1</div>
+      <div>row 1 col 2</div>
+
+      <div>row 2 col 1</div>
+      <div>row 2 col 2</div>
+
+      <div>row 3 col 1</div>
+      <div>row 3 col 2</div>
+
+      <div>row 4 col 1</div>
+      <div>row 4 col 2</div>
+  </main>
+  <footer></footer>
+</body>
+</html>
