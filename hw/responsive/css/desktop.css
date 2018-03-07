@@ -14,29 +14,30 @@ h2{
     margin:20px;
     padding: 10px 50px 5px 5px;
     color:Black;
-    font-family: 'Montserrat', sans-serif;
-  }
+    font-family: 'Montserrat', sans-serif;}
 
 p{padding-left:25px;
+  padding-right: 20px;
   color:Black;
-  font-family: 'Lato', sans-serif;}
+  font-family: 'Lato', sans-serif;
+  line-height: 30px}
 
 body{
-  padding-left: 30px
-}
+  padding-left: 30px}
+
 h4{
   font-family: 'Lato', sans-serif;
-  width: auto;
-}
+  width: auto;}
+
+h5{width: auto;
+  color: red;}
 
 a{color:black;
   text-decoration: none}
 
 .menu{
   display: inline-block;
-  text-align: center;
-}
+  text-align: center;}
 
 .menu:hover{
-  background-color: "244, 245, 247";
-}
+  background-color: "244, 245, 247";}
