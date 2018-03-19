@@ -22,6 +22,15 @@ p{padding-left:25px;
   font-family: 'Lato', sans-serif;
   line-height: 30px}
 
+#grid1 {
+    height: 0 auto;
+    display: grid;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 400px 400px;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+
 body{
   padding-left: 30px}
 
