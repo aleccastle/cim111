@@ -21,6 +21,12 @@
     <div class="box" id="box3">Click here to hide</div>
     <div id="box2info"><p>This is box2 stuff.</p></div>
 
+    <div class="box" id="box4">Enter and leave to change text</div>
+    <div id="box4info"><p>This is box4 stuff.</p></div>
+
+    <div class="box" id="box5">Click to show image</div>
+
+
     <script src="js/jquery-3.3.1.min.js"></script>
     <script>
       $(document).ready(function(){
@@ -34,7 +40,12 @@
         });
         $("#box3").click(function(){$("#box2info").hide();});
 
+        $("#box4").mouseenter(function(){$("#box4info").css("font-size","150px")});
+        $("#box4").mouseleave(function(){$("#box4info").css("font-size","10px")});
+
       });
+
+
 
       </script>
 
