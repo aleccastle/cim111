@@ -37,3 +37,6 @@ $(document).ready(function () {
         });
 
     });
+
+    <p> Step 4-Put the photo of Tom Hanks in the photo frame</p>
+    <p> Step 5-Don't tell anyone what's inside the photo frame</p>
