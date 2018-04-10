@@ -25,7 +25,7 @@ $(document).ready(function () {
         $("body").css("background-color", rgb);
 
         $("#button1").click(function () {
-            $("#replace").html("<p>Step 1-Find a picture of Tom Hanks on google.com</p> <img src='images/hanks.jpeg'>");
+            $("#replace").html("<p>Step 1-Find a picture of Tom Hanks on google.com</p> <img src='hanks.jpeg'");
         });
 
         $("#button2").click(function () {
@@ -37,6 +37,3 @@ $(document).ready(function () {
         });
 
     });
-
-    <p> Step 4-Put the photo of Tom Hanks in the photo frame</p>
-    <p> Step 5-Don't tell anyone what's inside the photo frame</p>
