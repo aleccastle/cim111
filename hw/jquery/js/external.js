@@ -25,7 +25,7 @@ $(document).ready(function () {
         $("body").css("background-color", rgb);
 
         $("#button1").click(function () {
-            $("#replace").html("<p>Step 1-Find a picture of Tom Hanks on google.com</p> <img src='hanks.jpeg'");
+            $("#replace").html("<p>Step 1-Find a picture of Tom Hanks on google.com</p> ");
         });
 
         $("#button2").click(function () {
