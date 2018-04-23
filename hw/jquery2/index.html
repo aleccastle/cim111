@@ -13,13 +13,68 @@
     <p>i've lived here all my life. it's a good house but you can't come inside. my parents said you can't, but i'll show you around through the magic of the internet. my third grade teacher told me that paragraphs are made up of more than 3 sentences, so this is a paragraph!</p>
 
     <ul>
-      <li>there is a kitchen</li>
-      <li>there is a room where i sleep</li>
-      <li>there is a basketball hoop <a href="https://www.youtube.com/watch?v=w1BBPYVlc-Y">click here to see my hoops mixtape</a></li>
-      <li>there is a bathroom</li>
-      <li>there is a backyard</li>
-  </body>
+      <li>there is a kitchen
+      <img id="kitchen" class="images" src="images/kitchen.jpeg" width="200">
+      </li>
+      <li>there is a room where i sleep
+      <img id="bedroom" class="images" src="images/bedroom.jpeg" width="200"></li>
+      <li>there is a basketball hoop
+      <img id="basketball" class="images" src="images/basketball.jpeg" width="200">
+      <a href="https://www.youtube.com/watch?v=w1BBPYVlc-Y">click here to see my hoops mixtape</a></li>
+      <li>there is a bathroom<br>
+      <img id="bathroom" class="images" src="images/bathroom.jpeg" width="200">
+      </li>
+      <li>there is a backyard
+        <img id="backyard" class="images" src="images/backyard.jpeg" width="200">
+      </li>
       <br>
-      <a href="pics">click here to see photos of my house</a>
+
+
+      <!--  add jquery-->
+      <!--  add library-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="js/jquery.transit.min.js"></script>
+      <script>
+        $(document).ready(function () {
+
+          $('#bathroom').transition({ rotate: '10deg' });
+
+        });</script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/jquery.transit.min.js"></script>
+        <script>
+          $(document).ready(function () {
+
+            $('#bedroom').transition({ rotate: '50deg' });
+
+          });</script>
+
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+          <script src="js/jquery.transit.min.js"></script>
+          <script>
+            $(document).ready(function () {
+
+              $('#kitchen').transition({ skewX: '30deg' });
+
+            });</script>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <script src="js/jquery.transit.min.js"></script>
+            <script>
+              $(document).ready(function () {
+
+                $('#backyard').transition({ x: 40, y: 40 });
+
+              });</script>
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+              <script src="js/jquery.transit.min.js"></script>
+              <script>
+                $(document).ready(function () {
+
+                  $('#basketball').transition({
+                  perspective: '100px',
+                  rotate3d: '1,1,0,180deg'});
+              });  </script>
+        
 
 </html>

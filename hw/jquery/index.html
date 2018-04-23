@@ -18,9 +18,25 @@
     <ul>
         <li><a href="externalJS.html">steps no. 1-3</a></li>
     </ul>
-
-    <p> Step 4-Put the photo of Tom Hanks in the photo frame</p>
+    <h4 id="step4">Step 4</h4>
+    <p id="step4Info">Put the photo of Tom Hanks in the photo frame</p>
     <p> Step 5-Don't tell anyone what's inside the photo frame</p>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#step4Info").hide();
+        $("#step4").css("color", "blue");
+
+
+
+        $('#step4').click(function(){
+          $("#step4Info").toggle();
+        });
+
+      });
+
+      </script>
 
 </body>
 
