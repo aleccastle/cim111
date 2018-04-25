@@ -36,7 +36,8 @@ body{
 
 h4{
   font-family: 'Lato', sans-serif;
-  width: auto;}
+  width: auto;
+  padding-left: 30px}
 
 h5{width: auto;
   color: red;}
